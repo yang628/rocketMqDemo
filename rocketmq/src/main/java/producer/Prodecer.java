@@ -19,7 +19,11 @@ import com.alibaba.rocketmq.common.message.Message;
  */
 public class Prodecer {
 
-
+	/**
+	 * 基本用例
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception {
 		DefaultMQProducer producer = new DefaultMQProducer("group");
 		producer.setNamesrvAddr("10.211.55.5:9876");
